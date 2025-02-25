@@ -1,6 +1,13 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tugas LKPD</title>
+    </head>
+    <body>
+
 <!-- TUGAS LKPD PHP DASAR -->
-<!-- Anggota:    1. Ayu Nadya P (04) -->
-<!--             2. Sang Bimo R. L (31) -->
 
 <h1>Skenario Pertama</h1>
 
@@ -69,7 +76,7 @@ if ($jam >= date("00:00") && $jam <= date("04:00")) {
 }
 ?>
 
-<h1>Skenario Ketiga</h1>
+<h1>Skenario Ketiga Jadwal Harian Andi</h1>
 
 <!-- // Andi pulang sekolah pukul 15:30, dan tiba di rumah pukul 15:45
 // Mengaji selama 30 menit (15:45 - 16:15) tetapi sebelum ngaji Andi mandi terlebih dahulu
@@ -80,54 +87,6 @@ if ($jam >= date("00:00") && $jam <= date("04:00")) {
 // Andi sebelum tidur dia perlu menyisihkan waktu 30 menit untuk chatting dengan Raya karena Raya berada di Arab. Perbedaan waktu di Aarab 4 jam\
 // Sebelum tidur Andi mengobrol dengan keluarganya 30 menit setelah mengerjakan tugas. Jika tidak ada tugas bisa dimajukan waktu mengobrolnya
 // Andi tidur pukul 22:00 bangun jam 04:00 -->
-
-<html>
-<head>
-    <title>
-        Tugas LKPD
-    </title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        h1 {
-            text-align: center;
-            font-size: 24px;
-        }
-
-        table {
-            border: 1px solid black;
-            font-size: 12px;
-        }
-
-        th, td {
-            border: 1px solid black;
-            padding: 4px;
-        }
-
-        .member, li, p {
-            font-size: 12px
-        }
-
-        p {
-            margin-top: 0;
-        }
-
-        input {
-            border: 1px solid black;
-            border-radius: 4px;
-            display: flex;
-        }
-
-        label {
-            font-size: 12px;
-        }
-    </style>
-</head>
-
-<body>
-    <h1>Jadwal Harian Andi</h1>
 
     <table>
         <tr>
