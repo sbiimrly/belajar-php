@@ -150,7 +150,7 @@ if ($jam >= date("00:00") && $jam <= date("04:00")) {
     </table>
     <br>
     <?php
-        $jadwal = "18:20";
+        $jadwal = "08:00";
 
         if ($jadwal >= date("15:30") && $jadwal <= date("15:45")) {
             echo "$jadwal : Andi pulang sekolah";
@@ -182,7 +182,7 @@ if ($jam >= date("00:00") && $jam <= date("04:00")) {
         
         <br>
         <h3>Bahan Diskusi</h3>
-        <p class="member">Anggota:
+        <p>Anggota:
             <br> Ayu Nadya P (04)
             <br> Sang Bimo R L (31)
         </p>
